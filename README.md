@@ -1,4 +1,4 @@
-# UGC Studio — AI Short-Form Content Generator
+# BrandMotion AI — Short-Form Video Generator
 
 An AI-powered web application that turns a product image and short description into authentic, short-form UGC (User-Generated Content) video clips ready for social platforms like TikTok, Instagram Reels, and YouTube Shorts.
 
@@ -6,7 +6,7 @@ An AI-powered web application that turns a product image and short description i
 
 ## 🌟 Project Overview
 
-UGC Studio automates the end-to-end creation of product-led UGC videos. Users upload an image of their product, enter a name and brief description, and choose a creative strategy angle. The application handles fact extraction, scriptwriting, voice narration, image-to-video animation, and subtitle generation to produce a download-ready vertical MP4 video.
+BrandMotion AI automates the end-to-end creation of product-led UGC videos using AI and Livepeer. Users upload an image of their product, enter a name and brief description, and choose a creative strategy angle. The application handles fact extraction, scriptwriting, voice narration, image-to-video animation, and subtitle generation to produce a download-ready vertical MP4 video.
 
 ---
 

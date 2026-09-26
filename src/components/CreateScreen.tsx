@@ -97,7 +97,7 @@ export const CreateScreen: React.FC<CreateScreenProps> = ({ onGenerate }) => {
           AI Short-Form Generator
         </div>
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-neutral-950 font-sans mb-3">
-          Create UGC that feels native to social.
+          Create BrandMotion videos that feel native to social.
         </h1>
         <p className="text-base sm:text-lg text-neutral-600 max-w-xl mx-auto font-normal">
           Turn your product into short-form content in minutes.
@@ -285,7 +285,7 @@ export const CreateScreen: React.FC<CreateScreenProps> = ({ onGenerate }) => {
                 : 'bg-neutral-200 text-neutral-400 cursor-not-allowed shadow-none'
             }`}
           >
-            Generate UGC
+            Generate BrandMotion Video
             <ArrowRight className="w-5 h-5" />
           </button>
           {!isFormValid && (

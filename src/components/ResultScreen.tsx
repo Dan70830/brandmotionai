@@ -95,7 +95,7 @@ export const ResultScreen: React.FC<ResultScreenProps> = ({ result, onCreateAnot
           Generation Complete
         </div>
         <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-neutral-950 mb-2">
-          Your UGC is ready
+          Your BrandMotion Video is ready
         </h1>
         <p className="text-sm sm:text-base text-neutral-600 max-w-md mx-auto">
           Short-form video generated for {result.productName}.

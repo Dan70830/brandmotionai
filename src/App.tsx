@@ -72,7 +72,7 @@ export function App() {
 
       <footer className="py-6 border-t border-neutral-200/60 bg-[#FAF9F5] text-center text-xs text-neutral-500 font-medium">
         <div className="max-w-5xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <span>UGC Studio — AI Short-Form Content Generator</span>
+          <span>BrandMotion AI — Short-Form Content Generator</span>
           <span className="text-neutral-600">Powered by Livepeer Agent</span>
         </div>
       </footer>

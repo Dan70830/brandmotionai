@@ -1,7 +1,9 @@
 import express from 'express';
 import cors from 'cors';
+import path from 'path';
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { CREATIVE_SKILLS, validateProductParams, formatCaptions } from './creativeSkills.js';
+
 
 
 const app = express();
@@ -532,8 +534,23 @@ function extractJobId(text) {
   return match ? match[0] : null;
 }
 
-const PORT = 3001;
-app.listen(PORT, () => {
-  console.log(`UGC Backend Server listening on http://127.0.0.1:${PORT}`);
+// Serve production static frontend build from dist folder
+app.use(express.static(path.resolve('dist')));
+
+// SPA fallback for non-API client routes
+app.use((req, res, next) => {
+  if (req.path.startsWith('/api/')) return next();
+  const indexPath = path.resolve('dist', 'index.html');
+  if (existsSync(indexPath)) {
+    res.sendFile(indexPath);
+  } else {
+    res.status(404).send('BrandMotion AI Web Service — Frontend dist not found. Run npm run build.');
+  }
 });
+
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`BrandMotion AI Production Web Service listening on port ${PORT}`);
+});
+
 

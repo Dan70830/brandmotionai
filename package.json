@@ -1,11 +1,12 @@
 {
-  "name": "god---tech-wgatsp",
+  "name": "brandmotion-ai",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "server": "node server.js",
+    "start": "node server.js",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
