@@ -1,12 +1,10 @@
 # BrandMotion AI — Short-Form Video Generator
 
-An AI-powered web application that turns a product image and short description into authentic, short-form UGC (User-Generated Content) video clips ready for social platforms like TikTok, Instagram Reels, and YouTube Shorts.
-
----
-
 ## 🌟 Project Overview
 
-BrandMotion AI automates the end-to-end creation of product-led UGC videos using AI and Livepeer. Users upload an image of their product, enter a name and brief description, and choose a creative strategy angle. The application handles fact extraction, scriptwriting, voice narration, image-to-video animation, and subtitle generation to produce a download-ready vertical MP4 video.
+BrandMotion AI is a creative workspace that helps brands generate on-brand videos for their products within minutes, without having to hire a video or motion editor for every piece of content.
+
+The application automates the end-to-end creation of product-led UGC videos using AI and Livepeer. Users upload an image of their product, enter a name and brief description, and choose a creative strategy angle. The application handles fact extraction, scriptwriting, voice narration, image-to-video animation, and subtitle generation to produce a download-ready vertical MP4 video.
 
 ---
 
